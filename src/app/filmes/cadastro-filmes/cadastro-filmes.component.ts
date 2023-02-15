@@ -17,7 +17,7 @@ export class CadastroFilmesComponent implements OnInit {
 
   id: number;
   cadastro: FormGroup;
-  generos: Array<string>;
+  generos: Array<string> = ["Limpeza", "Papelaria", "Ferragem", "Informática"];
 
   constructor(public validacao: ValidarCamposService,
               public dialog: MatDialog,
